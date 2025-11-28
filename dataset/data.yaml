@@ -1,0 +1,28 @@
+
+#linux
+path: .
+
+train: ./new_VOC1/train  # 118287 images
+val: .new_VOC1/val  # 5000 images
+test: ./new_VOC1/test
+
+# number of classes
+nc: 4
+
+# class names
+names: ['QueSun','SeDian','LuDi','QueYin']
+# names: ['QueSun']
+
+# #linux
+# path: .
+
+# train: /home/robot/ultralytics-yolo11-main/NEU-DET/train  # 118287 images
+# val: /home/robot/ultralytics-yolo11-main/NEU-DET/valid  # 5000 images
+# # test: /home/robot/ultralytics-yolo11-main/new_VOC1/test
+
+# # number of classes
+# nc: 6
+
+# # class names
+# names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']
+# # names: ['QueSun']
